@@ -5,7 +5,7 @@ void setup() {
 }
 void loop() {
   digitalWrite(foco, HIGH);   
-  delay(1000);                
+  delay(4000);//mas tiempo                
   digitalWrite(foco, LOW);    
-  delay(1000);                      
+  delay(2000);     //menos tiempo                 
 }
